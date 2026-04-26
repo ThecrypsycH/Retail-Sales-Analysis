@@ -16,6 +16,8 @@ across 100 store locations and 105,916 products.
 - Python 3.10
 - Pandas, Matplotlib, Seaborn
 - Jupyter Notebook
+- Power BI
+- Excel
 
 ## Dataset
 - 923,371 rows | 10 columns | Single year (2014)
