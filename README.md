@@ -60,6 +60,7 @@ containing 923,371 transactions across 100 store locations and 105,916 products.
 7. Sales Forecasting (Prophet)
 8. K-Means Store Clustering
 9. Sales Regression Model
+10. Improved Regression Model — Lagged Variables
 
 ## Dashboard Preview
 ![Sales Overview](dashboard_screenshots/Sales.png)
