@@ -13,6 +13,32 @@ containing 923,371 transactions across 100 store locations and 105,916 products.
 - **Forecast:** Sales projected to grow toward $7.9M/month by Feb 2015
 - **Regression:** Linear model achieves R² of 0.9969 predicting store-level revenue
 
+## Actionable Recommendations
+
+### Product Portfolio
+- **Discontinue or reduce** the 81,455 SKUs contributing only 20% of revenue
+- **Protect and prioritize supply chain** for Item 17791 — it generates 2.5x more 
+  than the next best product
+- Investigate why low-performing SKUs exist — out of stock, poor placement, or 
+  genuinely low demand?
+
+### Store Strategy
+- **Cluster 2 (Efficient Stores):** Best margin % at 43.9% — invest in growing 
+  these locations, not just the high-volume ones
+- **Cluster 1 (Weak Stores):** Highest markdown dependency at 13.2% — 
+  audit pricing strategy and product mix in these stores
+- **Cluster 0 (High Volume):** Focus on margin improvement, not just revenue growth
+
+### Seasonality
+- January is the worst month ($3.82M) — plan targeted promotions in December 
+  to carry momentum into January
+- August is peak ($6.7M) — ensure inventory and staffing are scaled up by July
+
+### Markdown Strategy
+- Markdown sales are only 9.3% of total revenue — healthy
+- Cluster 1 stores are over-indexing on markdowns — investigate root cause 
+  before expanding discounting further
+
 ## Tech Stack
 - Python 3.10 — Pandas, Matplotlib, Seaborn, Plotly, Prophet, Scikit-learn
 - Power BI — 6-page interactive dashboard
